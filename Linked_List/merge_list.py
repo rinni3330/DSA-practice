@@ -1,5 +1,10 @@
+class ListNode:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
 def merge_lists(list1, list2):
-    dummy = Node(0)
+    dummy = ListNode(0)
     current = dummy
 
     while list1 and list2:
